@@ -1,0 +1,2 @@
+(self.webpackChunkflexible_gatsby=self.webpackChunkflexible_gatsby||[]).push([[883],{9616:function(e,n,t){"use strict";t.r(n);var u=t(3552),r=t(7294),l=function(e){function n(){return e.apply(this,arguments)||this}return(0,u.Z)(n,e),n.prototype.render=function(){return r.createElement("div",null,"not found page..")},n}(r.Component);n.default=l}}]);
+//# sourceMappingURL=component---src-pages-404-js-6f26071254a2178e4fda.js.map
