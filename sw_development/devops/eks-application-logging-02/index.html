@@ -10,11 +10,11 @@
 <h1>파트 목차</h1>
 <hr>
 <ul>
-<li>로그 수집 구성 개요 : <a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-01/">https://blog.oflouis.dev/sw_development/devops/eks-application-logging-01/</a></li>
-<li>AWS IRSA, K8S RBAC 설정 : 현재 포스트</li>
-<li>DaemonSet 설정 : <a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-03/">https://blog.oflouis.dev/sw_development/devops/eks-application-logging-03/</a></li>
-<li>로그 로테이트 설정 : <a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-04/">https://blog.oflouis.dev/sw_development/devops/eks-application-logging-04/</a></li>
-<li>로그 멀티라인 파싱 설정 : <a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-05/">https://blog.oflouis.dev/sw_development/devops/eks-application-logging-05/</a></li>
+<li><a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-01/">로그 수집 구성 개요</a></li>
+<li><strong>AWS IRSA, K8S RBAC 설정 : 현재 포스트</strong></li>
+<li><a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-03/">DaemonSet 설정</a></li>
+<li><a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-04/">로그 로테이트 설정</a></li>
+<li><a href="https://blog.oflouis.dev/sw_development/devops/eks-application-logging-05/">로그 멀티라인 파싱 설정</a></li>
 </ul>
 <h1>AWS IRSA (IAM Role for Service Accounts) &#x26; RBAC 설정</h1>
 <hr>
@@ -104,15 +104,14 @@
 <h2>Service Account 생성</h2>
 <ul>
 <li>${IAM_ROLE_ARN} : 위에서 생성한 Role ARN (예 : arn:aws:iam::111122223333:role/logging-role)</li>
-<li>Service Account 이름은 데몬셋 파드에서 이를 할당할 때 사용한다.
+<li>Service Account 이름은 데몬셋 파드에서 이를 할당할 때 사용한다.</li>
+</ul>
 <div class="gatsby-code-title gatsby-code-title-custom">service-account.yaml</div>
 <div class="gatsby-highlight has-highlighted-lines" data-language="yaml"><pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
 <span class="token key atrule">kind</span><span class="token punctuation">:</span> ServiceAccount
 <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
 <span class="gatsby-highlight-code-line">  <span class="token key atrule">name</span><span class="token punctuation">:</span> fluent<span class="token punctuation">-</span>bit</span>  <span class="token key atrule">annotations</span><span class="token punctuation">:</span>
 <span class="gatsby-highlight-code-line">    <span class="token key atrule">eks.amazonaws.com/role-arn</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span>IAM_ROLE_ARN<span class="token punctuation">}</span></span>  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> logging</code></pre></div>
-</li>
-</ul>
 <h2>Cluster Role 생성</h2>
 <div class="gatsby-code-title gatsby-code-title-custom">cluster-role.yaml</div>
 <div class="gatsby-highlight" data-language="yaml"><pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1
