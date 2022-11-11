@@ -10,11 +10,11 @@
 <h1>파트 목차</h1>
 <hr>
 <ul>
-<li><a href="https://oflouis.dev/sw_development/devops/eks-application-logging-01/">로그 수집 구성 개요</a></li>
-<li><a href="https://oflouis.dev/sw_development/devops/eks-application-logging-02/">AWS IRSA, K8S RBAC 설정</a></li>
+<li><a href="https://oflouis.dev/sw_development/devops/aws-eks-application-logging-01/">로그 수집 구성 개요</a></li>
+<li><a href="https://oflouis.dev/sw_development/devops/aws-eks-application-logging-02/">AWS IRSA, K8S RBAC 설정</a></li>
 <li><strong>DaemonSet 설정 : 현재 포스트</strong></li>
-<li><a href="https://oflouis.dev/sw_development/devops/eks-application-logging-04/">로그 로테이트 설정</a></li>
-<li><a href="https://oflouis.dev/sw_development/devops/eks-application-logging-05/">로그 멀티라인 파싱 설정</a></li>
+<li><a href="https://oflouis.dev/sw_development/devops/aws-eks-application-logging-04/">로그 로테이트 설정</a></li>
+<li><a href="https://oflouis.dev/sw_development/devops/aws-eks-application-logging-05/">로그 멀티라인 파싱 설정</a></li>
 </ul>
 <h1>Fluent Bit DaemonSet 설정</h1>
 <hr>
@@ -105,7 +105,7 @@
 <span class="token scalar string">        Time_Keep   On</span></code></pre></div>
 <h2>K8S DaemonSet 생성</h2>
 <ul>
-<li><a href="https://oflouis.dev/sw_development/devops/eks-application-logging-02/">2편</a>에서 생성한 Service Account 이름을 spec.template.spec.ServiceAccountName에 적어준다.</li>
+<li><a href="https://oflouis.dev/sw_development/devops/aws-eks-application-logging-02/">2편</a>에서 생성한 Service Account 이름을 spec.template.spec.ServiceAccountName에 적어준다.</li>
 </ul>
 <div class="gatsby-highlight has-highlighted-lines" data-language="yaml"><pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
 <span class="token key atrule">kind</span><span class="token punctuation">:</span> DaemonSet
