@@ -1,2 +1,0 @@
-(self.webpackChunkflexible_gatsby=self.webpackChunkflexible_gatsby||[]).push([[996],{5068:function(e,t,n){"use strict";n.r(t);var r=n(3552),u=n(7294),l=function(e){function t(){return e.apply(this,arguments)||this}return(0,r.Z)(t,e),t.prototype.render=function(){return u.createElement("div",null,"search page..")},t}(u.Component);t.default=l}}]);
-//# sourceMappingURL=component---src-pages-search-js-25f2ded80448e7b485a3.js.map

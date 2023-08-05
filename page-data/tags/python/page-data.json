@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/python/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/troubleshooting/numpy-install-error-on-macos-m1/"},"frontmatter":{"title":"Mac M1 NumPy 설치 오류","created":"April 21, 2023","updated":"April 21, 2023"}}}]}},"pageContext":{"tag":"Python"}},"staticQueryHashes":["3427181268"]}
+{
+    "componentChunkName": "component---src-templates-tag-template-js",
+    "path": "/tags/python/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/troubleshooting/numpy-install-error-on-macos-m1/"},"frontmatter":{"title":"Mac M1 NumPy 설치 오류","created":"April 21, 2023","updated":"April 21, 2023"}}}]}},"pageContext":{"tag":"Python"}},
+    "staticQueryHashes": ["3427181268"]}
