@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-template-js",
-    "path": "/tags/cdk/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/devops/aws-cdk-eks-v23-troubleshooting/"},"frontmatter":{"title":"AWS. EKS CDK Troubleshooting - KubectlV23Layer","created":"November 08, 2022","updated":"November 08, 2022"}}}]}},"pageContext":{"tag":"CDK"}},
-    "staticQueryHashes": ["3427181268"]}
+{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/cdk/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/devops/aws-cdk-eks-v23-troubleshooting/"},"frontmatter":{"title":"AWS. EKS CDK Troubleshooting - KubectlV23Layer","created":"November 08, 2022","updated":"November 08, 2022"}}}]}},"pageContext":{"tag":"CDK"}},"staticQueryHashes":["3427181268"]}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-template-js",
-    "path": "/tags/ide/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/setup/github-repo-rename/"},"frontmatter":{"title":"깃허브 저장소 이름 바꾸기","created":"January 08, 2023","updated":"January 08, 2023"}}}]}},"pageContext":{"tag":"IDE"}},
-    "staticQueryHashes": ["3427181268"]}
+{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/ide/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/setup/github-repo-rename/"},"frontmatter":{"title":"깃허브 저장소 이름 바꾸기","created":"January 08, 2023","updated":"January 08, 2023"}}}]}},"pageContext":{"tag":"IDE"}},"staticQueryHashes":["3427181268"]}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-template-js",
-    "path": "/tags/cdn/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/devops/cdn-akamai-cli-purge/"},"frontmatter":{"title":"Akamai CLI 사용해서 Cache Purge 하기","created":"December 24, 2022","updated":"January 06, 2023"}}}]}},"pageContext":{"tag":"CDN"}},
-    "staticQueryHashes": ["3427181268"]}
+{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/cdn/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/devops/cdn-akamai-cli-purge/"},"frontmatter":{"title":"Akamai CLI 사용해서 Cache Purge 하기","created":"December 24, 2022","updated":"January 06, 2023"}}}]}},"pageContext":{"tag":"CDN"}},"staticQueryHashes":["3427181268"]}

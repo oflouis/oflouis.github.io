@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-post-category-list-template-js",
-    "path": "/life/healing/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Louis"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"맥북에서 애플의 game porting toolkit을 사용해 디아블로4를 게임하는 방법을 작성했다. 인텔 칩이 탑재된 맥북은 불가능하고, 실리콘 맥북(M1, M2 등등)에서만 가능하다.","fields":{"slug":"/life/healing/diablo4-play-on-mac/"},"timeToRead":3,"frontmatter":{"title":"맥북에서 디아블로4 게임하기","created":"2023, Aug 05","updated":"2023, Aug 05"}}}]}},"pageContext":{"limit":5,"skip":0,"numPages":1,"currentPage":1,"mainCategory":"life","subCategory":"healing","basePath":"life/healing"}},
-    "staticQueryHashes": ["3427181268"]}
+{"componentChunkName":"component---src-templates-post-category-list-template-js","path":"/life/healing/","result":{"data":{"site":{"siteMetadata":{"title":"Louis"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"맥북에서 애플의 game porting toolkit을 사용해 디아블로4를 게임하는 방법을 작성했다. 인텔 칩이 탑재된 맥북은 불가능하고, 실리콘 맥북(M1, M2 등등)에서만 가능하다.","fields":{"slug":"/life/healing/diablo4-play-on-mac/"},"timeToRead":3,"frontmatter":{"title":"맥북에서 디아블로4 게임하기","created":"2023, Aug 05","updated":"2023, Aug 12"}}}]}},"pageContext":{"limit":5,"skip":0,"numPages":1,"currentPage":1,"mainCategory":"life","subCategory":"healing","basePath":"life/healing"}},"staticQueryHashes":["3427181268"]}
