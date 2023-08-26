@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/game/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/life/healing/diablo4-play-on-mac/"},"frontmatter":{"title":"맥북에서 디아블로4 게임하기","created":"August 05, 2023","updated":"August 12, 2023"}}}]}},"pageContext":{"tag":"game"}},"staticQueryHashes":["3427181268"]}
+{
+    "componentChunkName": "component---src-templates-tag-template-js",
+    "path": "/tags/game/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/life/healing/diablo4-thief-quest/"},"frontmatter":{"title":"디아블로4 도적 진정한 잠재력 퀘스트 위치","created":"August 26, 2023","updated":"August 26, 2023"}}},{"node":{"fields":{"slug":"/life/healing/diablo4-play-on-mac/"},"frontmatter":{"title":"맥북에서 디아블로4 게임하기","created":"August 05, 2023","updated":"August 18, 2023"}}}]}},"pageContext":{"tag":"game"}},
+    "staticQueryHashes": ["3427181268"]}

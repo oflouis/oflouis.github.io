@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/macos-setup/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/life/healing/diablo4-play-on-mac/"},"frontmatter":{"title":"맥북에서 디아블로4 게임하기","created":"August 05, 2023","updated":"August 12, 2023"}}}]}},"pageContext":{"tag":"macos setup"}},"staticQueryHashes":["3427181268"]}
+{
+    "componentChunkName": "component---src-templates-tag-template-js",
+    "path": "/tags/macos-setup/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/life/healing/diablo4-play-on-mac/"},"frontmatter":{"title":"맥북에서 디아블로4 게임하기","created":"August 05, 2023","updated":"August 18, 2023"}}}]}},"pageContext":{"tag":"macos setup"}},
+    "staticQueryHashes": ["3427181268"]}
