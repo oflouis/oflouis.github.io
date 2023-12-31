@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-template-js",
-    "path": "/tags/domain/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/etc/google-domain-redirect-config/"},"frontmatter":{"title":"도메인 주소 변경하고 새주소로 리다이렉션하기","created":"October 15, 2022","updated":"October 15, 2022"}}}]}},"pageContext":{"tag":"domain"}},
-    "staticQueryHashes": ["3427181268"]}
+{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/domain/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/etc/google-domain-redirect-config/"},"frontmatter":{"title":"도메인 주소 변경하고 새주소로 리다이렉션하기","created":"October 15, 2022","updated":"October 15, 2022"}}}]}},"pageContext":{"tag":"domain"}},"staticQueryHashes":["3427181268"]}

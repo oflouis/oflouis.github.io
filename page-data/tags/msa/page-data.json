@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-template-js",
-    "path": "/tags/msa/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/spring-boot/resilience4j-feign-http-client/"},"frontmatter":{"title":"resilience4j 사용해서 HTTP API 연동하기","created":"October 30, 2022","updated":"October 30, 2022"}}}]}},"pageContext":{"tag":"msa"}},
-    "staticQueryHashes": ["3427181268"]}
+{"componentChunkName":"component---src-templates-tag-template-js","path":"/tags/msa/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/sw_development/spring-boot/resilience4j-feign-http-client/"},"frontmatter":{"title":"resilience4j 사용해서 HTTP API 연동하기","created":"October 30, 2022","updated":"October 30, 2022"}}}]}},"pageContext":{"tag":"msa"}},"staticQueryHashes":["3427181268"]}
